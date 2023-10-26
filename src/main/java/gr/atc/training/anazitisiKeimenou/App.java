@@ -12,10 +12,17 @@ public class App {
 		
 		String path = args[0];
 		System.out.println(path);
+<<<<<<< HEAD
 		String regex=args[1];
 		System.out.println(regex);
 		EpexergasiaKeimenou ek = new EpexergasiaKeimenou();
 		ek.readFile(path,regex); // kaloume ti methodo gia na diavasoume to arxeio
+=======
+		String lexi=args[1];
+		System.out.println(lexi);
+		EpexergasiaKeimenou ek = new EpexergasiaKeimenou();
+		ek.readFile(path,lexi); // kaloume ti methodo gia na diavasoume to arxeio
+>>>>>>> branch 'master' of https://github.com/Vasili90atc/anazitisiKeimenou
 	
 }
 }

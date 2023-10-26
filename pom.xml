@@ -51,6 +51,7 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+<<<<<<< HEAD
           <configuration>
                 <archive>
                     <manifest>
@@ -58,6 +59,8 @@
                     </manifest>
                 </archive>
             </configuration>
+=======
+>>>>>>> branch 'master' of https://github.com/Vasili90atc/anazitisiKeimenou
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
